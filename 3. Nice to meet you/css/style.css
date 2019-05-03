@@ -1,0 +1,185 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	padding-bottom: 140px;
+
+
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+	font-size: 14px;
+
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: color .2s linear;
+}
+
+.menu a:hover {
+	color: #fed136;
+}
+
+.tittle_first {
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+.tittle_second {
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 5px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:18px;
+	font-weight: bold;
+	transition: background .2s linear, color .2s linear;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #fed136;
+}
+
+.title {
+	padding-top: 120px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services {
+	margin-top: 80px;
+	padding-bottom: 120px;
+}
+
+.services_items {
+	width: 270px;
+	float: left;
+	text-align: center;
+
+}
+
+.services_items h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services_items p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+
+	
+}
+
+.services_items:last-child {
+	float: right;
+
+}
+
+.services_items:nth-child(2) {
+	margin-left: 70px;
+	
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 134px;
+
+}
+
+.works {
+	margin-top: 70px;
+
+}
+
+.works img {
+	float: left;
+
+}
+
+.works img:nth-child(2) {
+	margin-left: 38px;
+}
+
+.works img:last-child {
+	float: right;
+}
+
