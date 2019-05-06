@@ -7,14 +7,11 @@ p {
 	font-size: 15px;
 	font-weight: 700;
 
-
-
 }
 
 
 .logo {
-	width: 143px;
-	height: 84px;
+	height: 82px;
 
 }
 
@@ -25,3 +22,14 @@ p {
 .container {
 	width: 950px;
 	margin: 0 auto;
+
+}
+
+.icons {
+
+}
+
+.icons__item a {
+	padding-left: 20px;
+	text-decoration: none;
+}
