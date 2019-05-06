@@ -59,6 +59,7 @@ h1 {
 
 .btn {
 	width: 280px;
+	height: 60px;
 	background: #8824cd;
 	font-weight: 400;
 	font-size: 18px;
@@ -75,6 +76,7 @@ h1 {
 .h1 {
 	width: 505px;
 	margin-top: 315px;
+	margin-bottom: 252px;
 	
 }
 
