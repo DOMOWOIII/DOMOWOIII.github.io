@@ -1,0 +1,170 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 37px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h2 {
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+p {
+	margin-top: 10px;
+
+}
+
+.skills {
+	padding-top: 120px;
+	margin-bottom: 0;
+
+
+}
+
+.header {
+	background: url(../img/bg1.jpg) no-repeat top;
+
+}
+
+.container {
+	width: 1170px;
+	height: 750px;
+	margin: 0 auto;
+	padding-top: 42px;
+}
+
+.container_1 {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 42px;
+
+}
+
+.container_2 {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 42px;
+
+}
+
+.block__ease {
+	margin-top: 253px;
+	margin-bottom: 310px;
+}
+
+.block__ease p {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.logo {
+	
+}
+
+.block__main {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+	margin-bottom: 83px;
+}
+
+.block__skills {
+	width: 342px;
+	height: 90px;
+	background: url(../img/icon1.png) no-repeat left top;
+	padding-left: 75px;
+	padding-top: 10px;
+}
+
+.block__skills p {
+	font-size: 13px;
+	margin-right: 58px;
+	
+}
+
+.block__skills:nth-child(2) {
+ 	background: url(../img/icon2.png) no-repeat left top;
+
+}
+
+.block__skills:nth-child(3) {
+ 	background: url(../img/icon3.png) no-repeat left top;
+
+}
+
+.foto__box img {
+	margin-right: 7px;
+	margin-top: 87px;
+}
+
+a {
+	font-size: 13px;
+	font-weight: 800px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+
+}
+
+.btn {
+	display: block;
+	width: 235px;
+	background: #ecac2e;
+	padding: 15px 0;
+	font-weight: 800;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 92px ;
+	text-decoration: none;
+
+}
+
+.btn:hover {
+	background: #456227;
+}
+
+.btn:hover a {
+	color: #fff;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	background: black;
+	margin: 0;
+	color: white;
+	font-weight: 400;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 55px 0;
+	margin-top: 115px
+
+}
+
+.container_4 {
+	width: 1170px;
+	margin: 0 auto;	
+	display: flex;
+	;
+}
+
+.container_4 p {
+	margin: 0;
+	margin-right: 70px;
+
+
+}
