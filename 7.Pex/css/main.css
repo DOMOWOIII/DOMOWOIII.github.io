@@ -1,0 +1,90 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(../img/bg.jpg) no-repeat top;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 18px;
+	padding-right: 65px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 400;
+	color: #fff;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 400;
+
+
+}
+.container {
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0;
+
+	
+}
+
+.logo {
+	margin-top: 38px;
+
+}
+
+.menu {
+	list-style: none;
+
+}
+
+
+.menu li {
+	display: inline;
+	padding-right: 45px;
+}
+
+.headering {
+
+}
+
+.btn {
+	width: 280px;
+	background: #8824cd;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.button {
+	padding: 20px auto;
+
+}
+
+.h1 {
+	width: 505px;
+	margin-top: 315px;
+	
+}
+
+.text {
+	font-size: 12px;
+	font-weight: 400;
+	color: #e6e0e1;
+
+}
+
+.tittle {
+	padding-left: 54px;
+}
