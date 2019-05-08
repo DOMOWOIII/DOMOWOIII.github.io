@@ -1,6 +1,9 @@
 body {
-
+	margin: 0;
+	padding: 0;
 }
+
+/* Хедер*/
 
 header {
 	background: #fff;
@@ -13,7 +16,8 @@ header {
 }
 
 .menu {
-
+	margin-top: 6px;
+	margin-left: -30px;
 }
 
 .menu__list {
@@ -37,21 +41,57 @@ header {
 }
 
 .btn {
-	background: #fea100 url(..//img/order.png) no-repeat left center;
-	width: 200px;
-	padding: 16px 0;
+	
 }
 
-.btn a {
+.book {
+	display: block;
+	background: #fea100;
+	width: 200px;
+	padding: 14px 0;
 	font-family: 'Sintony', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: block;
-
+	border-radius: 6px;
+	border: 0;
+	outline: none !important;
+	margin-top: 0px;
 
 }
 
+.book__icon {
+	margin-right: 12px;
+}
 
+/* Первый экран*/
+
+.dish {
+	background: url(..//img/first-bg.jpg) no-repeat center;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 56px;
+	color: #fff;
+	margin: 0;
+
+}
+
+.text_2 {
+	font-size: 40px;
+
+}
+
+.yellow {
+	color: #fea100;
+
+}
+
+.luxury {
+	padding: 220px 0;
+}
