@@ -2,3 +2,56 @@ body {
 
 }
 
+header {
+	background: #fff;
+
+}
+
+.container {
+	padding: 22px 0;
+
+}
+
+.menu {
+
+}
+
+.menu__list {
+
+}
+
+.menu__item {
+	list-style-type: none;
+
+}
+
+.menu__item a {
+	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #2c465a;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 25px;
+
+}
+
+.btn {
+	background: #fea100 url(..//img/order.png) no-repeat left center;
+	width: 200px;
+	padding: 16px 0;
+}
+
+.btn a {
+	font-family: 'Sintony', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+
+
+}
+
+
