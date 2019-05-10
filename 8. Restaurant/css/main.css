@@ -200,3 +200,47 @@ h3 {
 
 /* Второй раздел - Today Spetial*/
 
+.special {
+	margin: 0 auto;
+	padding: 0;
+	background: url(../img/third-bg.jpg) no-repeat;
+}
+
+.special_text {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.dish {
+	text-align: center;
+
+}
+
+.dish_images {
+	margin-bottom: 45px;
+
+}
+
+.dish_title {
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	font-weight: 700;
+	color: #14141d;
+	margin-bottom: 10px;
+
+
+}
+
+.dish_text {
+	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #5c6369;
+	line-height: 2em;
+
+
+}
