@@ -66,7 +66,7 @@ header {
 	margin-right: 12px;
 }
 
-/* Первый экран*/
+/* Первый раздел*/
 
 .dish {
 	background: url(..//img/first-bg.jpg) no-repeat center;
@@ -95,3 +95,108 @@ h1, h2 {
 .luxury {
 	padding: 220px 0;
 }
+
+/* Второй раздел - Call*/
+
+.call {
+	background: #edf1f3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+
+.phone {
+	width: 460px;
+
+}
+
+.phone__text {
+	background: url(../img/phone.png) no-repeat left center;
+	font-family: 'Sintony', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #14141d;
+	padding-left: 56px;
+	width: 180px;
+	padding-top: 5px;
+}
+
+.phone__text span {
+	font-size: 16px;
+	display: block;
+	margin-top: -4px;
+
+	
+
+}
+
+.phone__digits {
+	font-size: 32px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #14141d;
+	margin-left: 55px;
+	margin-top: -6px;
+}
+
+/* Второй раздел - About restaurent*/
+
+.about {
+
+}
+
+.about_restaurant {
+	padding: 120px 0;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: #14141d;
+	margin-bottom: 35px;
+
+
+
+}
+
+.about_restaurant p {
+	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	color: #5c6369;
+	line-height: 1.7em;
+
+}
+
+.read {
+	width: 150px;
+	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	background: #fea100;
+	border-radius: 6px;
+	border: 0;
+	padding: 15px 0;
+	outline: none !important;
+	text-decoration: none;
+	margin-top: 35px;
+}
+
+.photo_images1 {
+	margin-top: 116px;
+}
+
+.photo_images2 {
+	margin-top: 66px;
+	margin-left: 20px;
+}
+
+.food_images_item {
+	margin-bottom: 10px;
+}
+
+/* Второй раздел - Today Spetial*/
+
