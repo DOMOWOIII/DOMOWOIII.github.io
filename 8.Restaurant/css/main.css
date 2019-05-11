@@ -37,8 +37,14 @@ header {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-right: 25px;
+	transition: 0.3s ease;
 
 }
+
+.menu__item a:hover {
+	color: #fea100;
+}
+
 
 .btn {
 	
@@ -59,7 +65,11 @@ header {
 	border: 0;
 	outline: none !important;
 	margin-top: 0px;
+	transition: 0.3s ease;
+}
 
+.book:hover {
+	background: #1a4d74;
 }
 
 .book__icon {
@@ -183,6 +193,12 @@ h3 {
 	outline: none !important;
 	text-decoration: none;
 	margin-top: 35px;
+	transition: 0.3s ease;
+}
+
+.read:hover {
+	background: #1a4d74;
+
 }
 
 .photo_images1 {
@@ -198,7 +214,7 @@ h3 {
 	margin-bottom: 10px;
 }
 
-/* Второй раздел - Today Spetial*/
+/* Третий раздел - Today Spetial*/
 
 .special {
 	margin: 0 auto;
@@ -213,19 +229,19 @@ h3 {
 	color: #fff;
 	text-align: center;
 	margin-top: 100px;
+	margin-bottom: 22px;
 }
 
-.dish {
+.dish2 {
 	text-align: center;
-
 }
 
-.dish_images {
+.dish2_images {
 	margin-bottom: 45px;
 
 }
 
-.dish_title {
+.dish2_title {
 	font-family: 'Playfair Display', serif;
 	font-size: 26px;
 	font-weight: 700;
@@ -235,12 +251,119 @@ h3 {
 
 }
 
-.dish_text {
+.dish2_text {
 	font-family: 'Sintony', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #5c6369;
 	line-height: 2em;
+	padding: 0 60px;
+}
+
+.food_details {
+	border-top: 1px solid #e1e1e1;
+	margin-top: 60px;
+	margin-left: 45px;
+	padding: 20px 0;
+
+}
+
+.food_details__title {
+	font-family: 'Sintony', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #14141d;
+	text-transform: uppercase;
+	width: 78px;
+	text-align: left;
+	padding-right: 20px;
+	border-right: 1px solid #e1e1e1;
+
+	
+}
+
+.food_details__title span {
+	color: #fe4c8d;
+	text-transform: uppercase;
+	
+}
+
+.food_details__phone {
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	font-weight: 700;
+	margin-left: 20px;
+
+}
+
+.food_details__price {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/* Footer */
+
+.footer {
+	font-family: 'Sintony', sans-serif;
+	background: #373844;
+	margin-top: 100px;
+	color: #8e9198;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-bottom: 105px;
+
+}
+
+.footer__icons {
+	padding-top: 75px;
+	text-align: center;
+}
+
+.footer__icons {
+	
+}
+
+.footer__iconsbtn {
+	border: 0;
+}
+
+.footer__iconsbtn_fc {
+	padding: 7px 10px 7px 10px;
+	background: #3b5998;
+	border: 0;
+	border-radius: 50%;
+	outline: none !important;
+
+}
 
 
+.footer__iconsbtn_tw {
+	padding: 8px;
+	background: #55acee;
+	border: 0;
+	border-radius: 50%;
+	outline: none !important;
+}
+
+.footer__iconsbtn_g {
+	padding: 7px;
+	background: #dd4b39;
+	border: 0;
+	border-radius: 50%;
+	outline: none !important;
+
+}
+
+.line {
+	background: #52535e;
+	height: 1px;
+	margin-top: 59px;
+
+}
+
+.credits {
+	text-align: center;
+	margin-top: 52px;
+	
 }
