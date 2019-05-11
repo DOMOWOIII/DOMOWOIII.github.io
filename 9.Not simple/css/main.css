@@ -1,0 +1,12 @@
+/* Font connection */
+
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+
