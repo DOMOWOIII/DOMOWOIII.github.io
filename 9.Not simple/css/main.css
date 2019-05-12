@@ -10,3 +10,188 @@
     url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+/*Specification*/
+
+.body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #0001c5;
+}
+
+.jpk-font {
+	font-family:'Jaapokkisubtract', sans-serif;
+}
+
+.header {
+	background: url(../img/first_bg.jpg) no-repeat center bottom;
+	height: 100vh;
+
+}
+
+.container {
+	margin: 0 7%;
+	position: relative;
+}
+
+.header .container {
+	height: 100vh;
+
+}
+
+.logo {
+	font-family:'Jaapokkisubtract', sans-serif;
+	color: #0000a0;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	font-size: 25px;
+	
+}
+
+.cap {
+	box-sizing: border-box;
+	background: #fff;
+	width: 47px;
+	height: 47px;
+	padding: 7px;
+	text-align: center;
+	padding: 12px 8px;
+	position: absolute;
+	top: 7%;
+	transition: 0.3s ease;
+
+
+}
+
+.cap:hover {
+	border-radius: 5px;
+
+}
+
+.brah {
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 18px;
+	width: 42px;
+	height: 172px;
+	position: absolute;
+	right: 35%;
+	padding: 0 16px;
+	line-height: 1.5em;
+
+}
+
+.humburger {
+	width: 41px;
+	height: 20px;
+	position: absolute;
+	left: 100%;
+	top: 8%;
+}
+
+.humburger span {
+	display: block;
+	height: 2px;
+	background: #fff;
+	margin-bottom: 6px;
+	float: right;
+}
+
+.humburger span:nth-child(1) {
+	width: 41px;
+}
+
+.humburger span:nth-child(2) {
+	width: 75%;
+}
+
+.humburger span:nth-child(3) {
+	width: 50%;
+}
+
+.humburger:hover span {
+	float: left;
+}
+
+.worth {
+	font-size: 250px;
+	font-weight: 400;
+	color: #1b1cc4;
+	width: 830px;
+	position: absolute;
+	top: 23%;
+
+}
+
+.worth__title {
+	position: absolute;
+	font-size: 55px;
+	color: #fff;
+	font-weight: 400;
+	left: 18%;
+	top: 23%;
+
+}
+
+.intro {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #f4f4fa;
+	display: block;
+	width: 325px;
+	position: absolute;
+	left: 27%;
+	top: 80%;
+	line-height: 1.7em;
+
+}
+
+.btn {
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	background: #0909af;
+	border: 3px solid #fff;
+	padding: 16px 55px 16px 55px;
+	top: 80%;
+	left: 29%;
+	font-weight: 400;
+	transition: 0.3s ease;
+
+
+}
+
+.btn:hover {
+	background: #fff;
+	color: #0909af;
+}
+
+.palka {
+	display: block;
+	width: 29px;
+	height: 5px;
+	background: #fff;
+	position: absolute;
+	top: 36%;
+    left: 47%;
+}
+
+.next {
+	position: absolute;
+	font-size: 250px;
+	color: #fff;
+	width: 402px;
+	letter-spacing: -0.1em;
+	line-height: 0.76em;
+	right: 0%;
+	top: 30%;
+	font-weight: 400;
+	text-shadow: 10px 10px 10px #030498;
+	
+
+}
+
+.next span:nth-child(2) {
+	color: #0048ff;
+	
+}
