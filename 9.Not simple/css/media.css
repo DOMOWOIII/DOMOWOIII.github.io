@@ -1,18 +1,27 @@
 /* 1601px - 1920px */
 
 @media screen and (max-width: 1920px) {
-
+	body {
+		overflow-x:hidden;
+	}
 }
 
 /* 1369px - 1600px */
 
 @media screen and (max-width: 1600px) {
-	
+	body {
+		overflow-x:hidden;
+	}
 }
 
 /* 961px - 1368px */
 
 @media screen and (max-width: 1368px) {
+
+	body {
+		overflow-x:hidden;
+	}
+
 	/*
 	.worth {
 		font-size: 168px;
@@ -53,6 +62,10 @@
 
 @media screen and (max-width: 960px) {
 
+	body {
+		overflow-x:hidden;
+	}
+
 	.next {
 		display: none;
 	}
@@ -90,6 +103,10 @@
 /* 481px - 768px */
 
 @media screen and (max-width: 768px) {
+
+	body {
+		overflow-x:hidden;
+	}
 	
 	.worth {
 		font-size: 125px;
@@ -111,20 +128,81 @@
 	}
 
 	.btn {
-
+		top: 57%;
 	}
 
 	.service_num {
-		top: -39px;
-		left: 201px;
+		text-align: center;
 	}
 }
 
 /* 320px - 480px */
 
 @media screen and (max-width: 480px) {
-	
-	.worth__title {
-		font-size: 40px;
+
+	body {
+		overflow-x:hidden;
 	}
+
+	.worth__title {
+		font-size: 31px;
+	}
+
+	.intro {
+		left: 11%;
+		width: 224px;
+	}
+
+	.palka {
+		display: none;
+	}
+
+	.btn {
+		left: 19%;
+		top: 61%;
+	}
+
+	.service__item {
+		    width: 83%;
+	}
+		
+	.service_num {
+	    left: 142px;
+	}
+
+	.provide h2 {
+		font-size: 65px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+}
+
+/* 0px - 320px */
+
+@media screen and (max-width: 320px) {
+	
+	body {
+		overflow-x:hidden;
+	}
+
+	.worth__title {
+		font-size: 26px;
+	}
+
+	.worth {
+		font-size: 107px;
+	}
+
+	.intro {
+		width: 194px;
+		font-size: 12px;
+	    top: 95%;
+	}
+
+	.scroll {
+		height: 69px;
+	}
+
 }

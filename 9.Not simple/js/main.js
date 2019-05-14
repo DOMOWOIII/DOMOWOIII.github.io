@@ -7,3 +7,4 @@ $(document).ready(function(){
 	    return false; // выключаем стандартное действие
     });
 });
+
