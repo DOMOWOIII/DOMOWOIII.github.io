@@ -1,11 +1,44 @@
-@import "smartgrid";
+@import "smart-grid";
+
+@include reset();
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
+}
+
+.container {
+	@include wrapper();
+}
+
+.row {
+	@include row-flex();
 
 }
 
-.block {
-	font-size: 20px;
-	font-weight: 700;
+.header {
+	background: url(../img/first-bg.jpg) no-repeat center top;
+	height: 600px;
+	padding-top: 50px;
+
+}
+
+.row {
+	justify-content: space-between;
+
+}
+
+
+.humburger {
+	width: 24px;
+	cursor: pointer;
+
+}
+
+span {
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin-top: 6px;
+
 }
