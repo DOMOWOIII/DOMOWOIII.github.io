@@ -11,6 +11,18 @@ body {
 	@include wrapper();
 }
 
+section {
+	padding: 48px 0 67px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #323232;
+}
+
+.d-flex {
+	display: flex;
+}
+
 .row {
 	@include row-flex();
 	justify-content: space-between;
@@ -24,13 +36,23 @@ body {
 
 .header {
 	background: url(../img/first-bg.jpg) no-repeat center top;
-	height: 600px;
 	padding-top: 50px;
-	padding-bottom: 210px;
+	padding-bottom: 200px;
 
 }
 
+.logo {
+	@include col();
+	@include size(2);
+
+	display: block;
+	width: 147px;
+}
+
 .humburger {
+	@include col();
+	@include size(1);
+
 	width: 24px;
 	cursor: pointer;
 
@@ -48,8 +70,24 @@ div, p, input, form, button, span, a {
 	box-sizing:border-box;
 }
 
+p {
+	color: #8b8b8b;
+}
+
+ul li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.d-flex {
+	display: flex;
+
+}
+
 .offer {
 	margin-top: 170px;
+	text-align: center;
 }
 
 .offer__title {
@@ -57,13 +95,15 @@ div, p, input, form, button, span, a {
 	font-weight: 300;
 	color: #fff;
 	
-}
+@include sm(font-size, 40px);
+@include xs(font-size, 25px);
 
-.offer__title {
-	text-align: center;
 }
 
 .offer__form {
+
+	@include xs(flex-direction, column);
+
 	& input {
 		background: #fff;
 		width: 328px;
@@ -73,6 +113,8 @@ div, p, input, form, button, span, a {
 		padding-bottom: 9px;
 		font-size: 16px;
 		display: block;
+
+		@include xs(width, auto);
 	}
 	margin-top: 30px;
 	display: flex;
@@ -90,4 +132,172 @@ div, p, input, form, button, span, a {
 	border: none;
 	padding: 10px 0;
 	box-sizing:border-box;
+	transition: 0.3s ease;
+
+	@include xs(width, auto);
+}
+
+.submit:hover {
+	background: #c83e26;
+	color:  #fff;
+}
+
+.destination {
+	background: #eeeeee;
+	padding: 48px 0 67px;
+}
+
+.section-title {
+	@include col();
+	@include size(12);
+}
+
+.section-title__heading {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	
+
+	}
+
+.section-title__text {
+		font-size: 15px;
+
+}
+
+.route {
+	@include col();
+	@include size(3);
+	@include size-xs(12);
+	background: #fff;
+	margin-top: 34px;
+	border-bottom: 2px solid #e1e0d8;
+	transition: 0.3s ease;
+
+}
+
+.route:hover {
+	box-shadow: 0px 10px 34px #fff;
+
+
+}
+
+
+.route__foto {
+	position: relative;
+}
+
+.route__foto img {
+	display: block;
+	width: 100%;
+}
+
+.route__price {
+	position: absolute;
+	font-size: 13px;
+	color: #fff;
+	bottom: 14px;
+	right: 20px;
+}
+
+.route__title {
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-top: 14px;
+	font-weight: 700;
+
+}
+
+.route__desc {
+	font-size: 13px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+	line-height: 1.6em;
+}
+
+.details {
+
+}
+
+.bigest {
+	@include xs(font-size, 35px);
+
+	font-size: 52px;
+	text-transform: none;
+	font-weight: 300;
+	margin-bottom: 54px;
+}
+
+.detail {
+	@include col();
+	@include size(4);
+	@include size-sm(12);
+	@include size-xs(12);
+}
+.detail__title {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.detail__desc {
+
+}
+
+.detail__desc {
+	font-size: 15px;
+}
+
+footer {
+	background: #eeeeee;
+	padding: 24px 0;
+
+}
+
+.credits {
+	@include col();
+	@include size(6);
+	@include size-xs(12);
+	@include xs(text-align, center);
+	font-size: 14px;
+	font-weight: 400;
+	color: #8b8b8b;
+}
+
+.footer .container > .row {
+	@include xs(flex-direction, column);
+}
+
+.menu {
+	@include col();
+	@include size(4);
+	@include size-xs(12);
+	@include xs(flex-direction, column);
+	@include xs(margin-top, 20px);
+	justify-content: flex-end;
+
+}
+
+.menu__item {
+	margin-left: 19px;
+	@include xs(text-align, center);
+	@include xs(margin-bottom, 20px);
+	@include xs(margin-left, 0);
+}
+
+.menu__item a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #323232;
+	transition: 0.3s ease;
+
+	@include xs(font-size, 11px);
+}
+
+.menu__item a:hover {
+	color: #c83e26;
 }
