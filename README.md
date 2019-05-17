@@ -1,5 +1,5 @@
 # DOMOWOIII.github.io
-<a href="https://domowoiii.github.io/10.%20Travell/index.html">Project № 8 (HTML5, CSS3, SCSS, Gulp, Adaptive (Smart Grid))</a><br>
+<a href="https://domowoiii.github.io/10.%20Travell/">Project № 8 (HTML5, CSS3, SCSS, Gulp, Adaptive (Smart Grid))</a><br>
 <a href="https://domowoiii.github.io/9.Not simple/">Project № 7 (HTML5, CSS3, jQuery, Adaptive (media queries))</a><br>
 <a href="https://domowoiii.github.io/8.Restaurant/">Project № 6 (HTML5, CSS3, Bootstrap 4)</a><br>
 <a href="https://domowoiii.github.io/6.LearnCode/#">Project № 5 (HTML5, CSS3)</a><br>
