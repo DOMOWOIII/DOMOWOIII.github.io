@@ -9,7 +9,8 @@
   "author": "",
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "latest"
+    "gulp-sass": "latest",
+    "tar": "^4.4.8"
   },
   "license": "ISC",
   "devDependencies": {
