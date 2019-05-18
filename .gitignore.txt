@@ -1,3 +1,1 @@
-$ cat .gitignore
 *.json
-\10.Travell\package.json
