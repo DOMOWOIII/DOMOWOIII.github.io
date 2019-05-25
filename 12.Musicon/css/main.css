@@ -14,11 +14,9 @@ h1, h2, h3, h4, h5, h6, img {
 
 header {
 	margin: 0 auto;
-	width: 87%;
+	width: 92%;
 	height: 136px;
 	align-items: center;
-	padding-left: 7%;
-	padding-right: 7%;
 	justify-content: space-between;
 }
 .d-flex {
@@ -98,5 +96,153 @@ header {
 .play_music {
 	margin-left: 20px;
 	margin-bottom: 10px;
+}
+
+.offer {
+	width: 46%;
+	margin-left: 4%;
+	box-sizing: border-box;
+	background: #141414;
+	padding-bottom: 4%;
+}
+
+.offer__content {
+	padding-left: 10%;
+	padding-top: 10%;
+
+}
+
+.offer__content h1 {
+	font-size: 73px;
+	font-weight: 900;
+	text-transform: uppercase;
+	
+}
+
+.take_music {
+	width: 80%;
+}
+
+.offer__content h2 {
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.offer__content_button {
+	margin-top: 5%;
+}
+
+.btn {
+	color: #30e9a1;
+	border-radius: 13.5px;
+	border: 1px solid #30e9a1;
+	background: #181818;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: 400;
+	padding: 6px 18px 6px 18px;
+	margin-right: 16px;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	color: #171717;
+	border-radius: 13.5px;
+	border: 1px solid #23c8d2;
+	background: #30e9a1;
+}
+
+.more {
+	margin-top: 8%;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: #e930a1;
+	border: none;
+	border-radius: 29px;
+	padding: 23px 40px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	border: 2px solid #e930a1;
+}
+
+.more:hover {
+	margin-top: 8%;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: #d12780;
+	border: 2px solid #23c8d2;
+}
+
+.ragman {
+	width: 46%;
+	margin-right: 4%;
+	box-sizing: border-box;
+	background: url(../img/radiance.png) no-repeat;
+	background-size: cover;
+	padding-bottom: 4%;
+	position: relative;
+}
+
+.together {
+
+}
+
+.ragman__img {
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	z-index: 1;
+
+}
+
+.circle {
+	z-index: 0;
+	position: absolute;
+	width: 70%;
+	right: 17%;
+    top: 7%;
+}
+
+.element2 {
+	z-index: 2;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 31%;
+}
+
+.element1 {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	top: 95px;
+    left: -61px;
+}
+
+.stick {
+	z-index: 0;
+	position: absolute;
+	width: 23%;
+	top: 280px;
+    left: -26px;
+}
+
+.triangle {
+	z-index: 0;
+	position: absolute;
+	width: 15%;
+	top: 71px;
+    right: 82px;
 }
 
