@@ -1,0 +1,102 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	
+	font-family: 'Montserrat', sans-serif;
+	background: #171717;
+}
+
+h1, h2, h3, h4, h5, h6, img {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+header {
+	margin: 0 auto;
+	width: 87%;
+	height: 136px;
+	align-items: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	justify-content: space-between;
+}
+.d-flex {
+	display: flex;
+}
+
+.logo {
+
+}
+.navigation {
+	margin-right: 22%;
+	margin-bottom: 6px;
+}
+
+.navigation__list {
+	list-style: none;
+
+}
+
+.navigation__item {
+	margin-right: 40px;
+}
+
+.navigation__item a {
+	font-size: 13px;
+	font-weight: 300;
+	color: #ffffff;
+	list-style: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 0.5s ease;
+
+}
+
+.navigation__item a:hover {
+	color: #23c8d2;
+	
+}
+
+
+.auth {
+	align-items: center;
+}
+
+.profile {
+	font-size: 8px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.55);
+	width: 75px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	
+}
+
+.profile span {
+	font-size: 10px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.6em;
+}
+
+.leo {
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 50%;
+	width: 58px;
+	height: 58px;
+	padding: 7px;
+
+	box-sizing: border-box;
+	justify-content: center;
+	align-content: center;
+}
+.logo_music {
+	margin-left: 15px;
+	margin-bottom: 6px;
+}
+.play_music {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
