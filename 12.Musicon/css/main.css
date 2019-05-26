@@ -4,7 +4,7 @@ body {
 	
 	font-family: 'Montserrat', sans-serif;
 	background: #171717;
-	overflow: hidden;
+
 }
 
 h1, h2, img {
@@ -52,6 +52,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 }
+
 .d-flex {
 	display: flex;
 }
@@ -59,6 +60,7 @@ header {
 .logo {
 
 }
+
 .navigation {
 	margin-right: 22%;
 	margin-bottom: 6px;
@@ -92,6 +94,7 @@ header {
 
 .auth {
 	align-items: center;
+
 }
 
 .profile {
@@ -127,12 +130,14 @@ header {
 
 .leo:hover {
 	border: 1px solid #23c8d2;
+
 }
 
 .logo_music {
 	margin-left: 15px;
 	margin-bottom: 6px;
 }
+
 .play_music {
 	margin-left: 20px;
 	margin-bottom: 10px;
@@ -286,3 +291,66 @@ header {
     right: 82px;
 }
 
+/*Медиа-запросы*/
+
+@media screen and (max-width: 1024px) {
+
+.offer__content h1 {
+	font-size: 60px;
+}
+
+h3, h4 {
+	font-size: 60px;
+}
+
+
+h3 {
+	top: 200px;
+    left: 93px;
+}
+
+h4 {
+	top: 198px;
+    left: 89px;
+}
+
+.navigation {
+	margin-bottom: -13px;
+}
+
+.offer__content_button {
+	display: flex;
+}
+
+.circle {
+	right: 17%;
+    top: 31%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.auth {
+	margin-left: -53px;
+}
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+.together {
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.offer {
+	width: 100%;
+}
+
+.ragman {
+	width: 100%;
+}
+
+}
