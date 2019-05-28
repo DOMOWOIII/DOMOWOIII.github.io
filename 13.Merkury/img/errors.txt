@@ -1,0 +1,2 @@
+[2019-05-28 07:12:43] layer "icon_check.png": Duplicate path: icon_check.png
+[2019-05-28 07:12:43] layer "www.symu.co": Unsupported extension: co
