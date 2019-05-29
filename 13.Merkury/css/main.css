@@ -1,3 +1,4 @@
+
 body {
 	margin: 0;
 	padding: 0;
@@ -132,6 +133,14 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	background: #5584ff;
 
+	cursor: pointer;
+	transition: all 0.4s ease;
+
+}
+
+.started:hover {
+	color: #5584ff;
+	background: #fff;
 }
 
 .schedule {
@@ -139,4 +148,73 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	margin-top: 70px;
 	width: 700px;
+}
+
+.features {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.features_icon {
+	width: 15%;
+}
+
+.features__item {
+	width: 300px;
+	text-align: center;
+	
+}
+
+.features__item h3 {
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.features__item p {
+	margin-top: 25px;
+	font-size: 16px;
+	color: #8492af;
+}
+
+.link {
+	margin-top: 40px;
+	font-size: 16px;
+	border: 1px solid #dadee7;
+	border-radius: 24px;
+
+	width: 200px;
+	padding: 10px 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	transition: all 0.4s ease;
+}
+
+.link:hover {
+	color: #fff;
+	background: #5584ff;
+}
+
+
+.features__item a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+
+}
+
+.features__item:nth-child(1) {
+	margin-right: 70px;
+
+}
+
+.features__item:nth-child(3) {
+	margin-left: 70px;
+	
 }
