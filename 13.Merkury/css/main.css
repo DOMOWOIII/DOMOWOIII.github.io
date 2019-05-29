@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+h1 {
+	color: #0e1a35;
+	font-size: 50px;
+	font-weight: 300;
+}
 .main {
 	height: 100vh;
 	background: #0e1a35 url(../img/offer.jpg) top no-repeat;
@@ -148,6 +153,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	margin-top: 70px;
 	width: 700px;
+	transition: all 0.3s ease;
+}
+
+.schedule:hover {
+	box-shadow: 0px 0px 17px #dadee7;
 }
 
 .features {
@@ -218,3 +228,61 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 70px;
 	
 }
+
+.necessity {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+	background: #f6f7fa;
+	padding-bottom: 70px;
+	box-shadow: 0px -30px 17px #f6f7fa;
+}
+
+.necessity__text {
+	width: 550px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+.necessity__text h1 {
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+.necessity__ipad {
+
+}
+
+.necessity__ipad img {
+	width: 700px;
+
+}
+.necessity__text_title p {
+	color: #8492af;
+	line-height: 25px;
+
+}
+
+.necessity__text_list {
+	margin-top: 45px
+}
+
+.necessity__text_list p {
+	color: #5584ff;
+	font-size: 18px;
+
+}
+
+.hidden {
+	display: hidden;
+	height: 2px;
+}
+
+.necessity_icon {
+	background: url(../img/icon_check.png) no-repeat left center;
+}
+
+.necessity_icon p {
+	margin-left: 40px;
+}
+
