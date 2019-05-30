@@ -286,3 +286,143 @@ h1 {
 	margin-left: 40px;
 }
 
+.tasks {
+	background: url(../img/offer.jpg) no-repeat top center;
+}
+
+.tasks__left {
+	position: relative;
+}
+
+.tasks__left img {
+	margin-top: 28px;
+}
+
+.tasks__left h4 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.tasks__left span {
+	color: #8492af;
+}
+
+.tasks__completed {
+	margin-left: 40px;
+}
+
+.tasks__completed h4 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.tasks__completed span {
+	color: #8492af;
+
+}
+
+.tasks__right {
+	margin-left: 130px;
+
+	width: 450px;
+}
+
+.tasks__right div {
+	
+	margin-top: 30px;
+}
+
+.tasks__completed img {
+	margin-top: 28px;
+}
+
+.tasks__right h1 {
+	font-size: 48px;
+	font-weight: 300;
+	color: #fff;
+
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	padding-left: 70px;
+}
+
+.progress_1, .progress_2 {
+	width: 300px;
+}
+
+.block {
+	margin-top: 9px;
+
+	width: 298px;
+	height: 72px;
+	border: 1px dashed #8492af;
+
+	color: #8492af;
+	font-weight: 500;
+	font-size: 18px;
+
+	text-align: center;
+	line-height: 72px;
+}
+
+.img_tasks {
+	position: absolute;
+	right: -70px;
+    bottom: -65px;
+
+	width: 405px;
+}
+
+.hand {
+	position: absolute;
+	right: -35px;
+    bottom: -45px;
+
+    width: 70px;
+}
+
+.btn_left, .btn_right {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 1px solid #8492af;
+	background: none;
+
+	cursor: pointer;
+	line-height: 35px;
+	text-align: center;	
+
+	transition: all 0.3s ease;
+
+}
+
+.btn_left:hover, .btn_right:hover {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 1px solid #a5b1ca;
+	color: #0e1a35;
+
+}
+
+i {
+	color: #8492af;
+	font-size: 14px;
+}
+
+.btn {
+	position: relative;
+}
+
+.btn_right {
+	position: absolute;
+	left: 60px;
+	bottom: 0;
+}
