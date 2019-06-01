@@ -1,9 +1,12 @@
 
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
+
+
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 
 	font-family: 'Roboto', sans-serif;
 }
@@ -744,3 +747,4 @@ hr {
 	color: #8492af; 
 }
 
+}

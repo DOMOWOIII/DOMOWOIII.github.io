@@ -1,7 +1,18 @@
-/* 1601px - 1920px */
+/* 1601px - */
 
-@media screen and (max-width: 1601px) and(max-width: 1920px) {
+@media screen and (min-width: 1600px) {
 	
+	.powerfull img {
+		display: block;
+    	margin: 0 auto;
+    	margin-top: 60px;
+	}
+
+	.powerfull p {
+ 	text-align: center;
+    	
+	}
+
 	main {
 		height: 1400px;
 	}
@@ -15,19 +26,20 @@
 	}
 
 	.powerfull .circle_left {
-    	left: 120px;
+    	left: 290px;
 	}
 
 	.powerfull .circle_right {
-    	right: 169px;
+    	   right: 300px;
     }
 
 	.clean {
-    	left: 120px;
+    	left: 290px;
+    	top: 320px;
 	}
 
 	.easy {
-		right: 167px;
+		   right: 297px;
 
 	}
 
@@ -42,17 +54,124 @@
 	
 }
 
-/* 1369px - 1600px */
-
-@media screen and (max-width: 1600px) {
-
-}
-
 /* 961px - 1368px */
 
 @media screen and (max-width: 1368px) {
 
+	.header {
+    	height: 25vh;
+	}
+
+    .features__item:nth-child(1) {
+    margin-right: 30px;
+
+	}
 	
+	.features__item:nth-child(3) {
+    margin-left: 30px;
+
+	}
+
+	.price {
+    	padding-left: 20px;
+    	padding-right: 20px;
+	}
+
+	.features__item {
+    width: 250px;
+
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+
+		padding-top: 78px;
+    	padding-bottom: 0px;
+    	padding-left: 0px;
+	}
+	
+	.img_tasks {
+		display: none;
+	}
+
+	.tasks__completed {
+    	margin-left: 0px;
+	}
+
+	.hand {
+		display: none;
+	}
+
+	.tasks__left {
+    	width: 300px;
+	}
+
+	.tasks__completed {
+		width: 300px;
+	}
+	
+	.tasks__completed h4 {
+		text-align: center;
+    	margin-top: 50px;
+	}
+
+	.tasks__left h4 {
+		text-align: center;
+	}
+
+	.tasks__completed img {
+    	margin-top: 28px;
+	}
+
+	.tasks__right {
+	    margin-left: 0px;
+	    width: 300px;
+	    text-align: center;
+	}
+
+	.necessity {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.necessity__text {
+		text-align: center;
+    	width: 550px;
+    	margin-top: 40px;
+    	margin-left: 0px;
+	}
+
+	.necessity__ipad {
+		margin-left: 279px;
+		margin-top: 50px;
+	}
+	
+	.btn {
+		padding-bottom: 50px;
+	}
+	
+	.btn_right {
+
+    	position: static;
+    	left: 60px;
+    	bottom: 0;
+	}
+
+	.powerfull p {
+    	width: 600px;
+	}
+
+	.powerfull .circle_left {
+		display: none;
+	}
+
+	.powerfull .circle_right {
+		display: none;
+	}
 }
 
 /* 769px - 960px */
@@ -60,28 +179,11 @@
 @media screen and (max-width: 960px) {
 
 
-	
 }
 
 /* 481px - 768px */
 
 @media screen and (max-width: 768px) {
 
-	
-}
-
-/* 320px - 480px */
-
-@media screen and (max-width: 480px) {
-
-	
-
-}
-
-/* 0px - 320px */
-
-@media screen and (max-width: 320px) {
-	
-	
 
 }
