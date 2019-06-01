@@ -135,7 +135,7 @@ h1 {
 	width: 160px;
 	border: none;
 	border-radius: 24px;
-	
+	outline: none;
 	font-weight: 700;
 	font-size: 16px;
 	color: #fff;
@@ -499,19 +499,19 @@ i {
 .powerfull .circle_left {
 	display: block;
 	position: absolute;
-
-	width: 600px;
-	right: 608px;
-	top: -249px;
+	
+	width: 625px;
+    left: 70px;
+    top: 275px;
 }
 
 .powerfull .circle_right {
 	display: block;
 	position: absolute;
 
-	width: 600px;
-	right: 1px;
-	top: -25px;
+	width: 625px;
+    right: 70px;
+    bottom: 153px;
 
 }
 
@@ -650,7 +650,7 @@ pre {
 	font-size: 16px;
 	color: #fff;
 	background: #5584ff;
-
+	outline: none;
 	cursor: pointer;
 	transition: all 0.4s ease;
 }

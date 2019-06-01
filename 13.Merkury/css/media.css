@@ -1,0 +1,83 @@
+/* 1601px - 1920px */
+
+@media screen and (min-width: 1601px) {
+	.header {
+		height: 25vh;
+	}
+	
+	.tasks__right {
+    	margin-left: 275px;
+	}
+
+	.powerfull .circle_left {
+    	right: 750px;
+	}
+
+	.powerfull .circle_right {
+    	right: 169px;
+    }
+
+	.clean {
+    	left: 120px;
+	}
+
+	.easy {
+		right: 167px;
+
+	}
+
+	.circle_right {
+    	right: 119px;
+	}
+	
+	.schedule {
+    	margin-top: 201px;
+	}
+
+}
+
+/* 1369px - 1600px */
+
+@media screen and (max-width: 1600px) {
+	body {
+		overflow-x:hidden;
+	}
+}
+
+/* 961px - 1368px */
+
+@media screen and (max-width: 1368px) {
+
+	
+}
+
+/* 769px - 960px */
+
+@media screen and (max-width: 960px) {
+
+
+	
+}
+
+/* 481px - 768px */
+
+@media screen and (max-width: 768px) {
+
+	
+}
+
+/* 320px - 480px */
+
+@media screen and (max-width: 480px) {
+
+	
+
+}
+
+/* 0px - 320px */
+
+@media screen and (max-width: 320px) {
+	
+	
+
+}
