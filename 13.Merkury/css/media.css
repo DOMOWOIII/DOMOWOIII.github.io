@@ -1,6 +1,6 @@
 /* 1601px - */
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1368px) and (max-width: 1920px) {
 	
 	.powerfull img {
 		display: block;
@@ -56,7 +56,7 @@
 
 /* 961px - 1368px */
 
-@media screen and (max-width: 1368px) {
+@media screen and (max-width: 1368px) and (min-width: 961px){
 
 	.header {
     	height: 25vh;
