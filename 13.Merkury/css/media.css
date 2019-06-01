@@ -1,6 +1,11 @@
 /* 1601px - 1920px */
 
-@media screen and (min-width: 1601px) {
+@media screen and (max-width: 1601px) and(max-width: 1920px) {
+	
+	main {
+		height: 1400px;
+	}
+
 	.header {
 		height: 25vh;
 	}
@@ -10,7 +15,7 @@
 	}
 
 	.powerfull .circle_left {
-    	right: 750px;
+    	left: 120px;
 	}
 
 	.powerfull .circle_right {
@@ -34,14 +39,13 @@
     	margin-top: 201px;
 	}
 
+	
 }
 
 /* 1369px - 1600px */
 
 @media screen and (max-width: 1600px) {
-	body {
-		overflow-x:hidden;
-	}
+
 }
 
 /* 961px - 1368px */
