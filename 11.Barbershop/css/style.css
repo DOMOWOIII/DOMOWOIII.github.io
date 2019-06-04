@@ -29,8 +29,6 @@ a {
 .header {
 	background: #000;
 	color: #fff;
-	padding-top: 27px;
-	padding-bottom: 27px;
 }
 
 .container {
@@ -52,18 +50,27 @@ a {
 }
 
 .menu li {
-	padding-right: 40px;
+
+}
+
+.menu a,
+.auth a {
+	display: block;
+	padding: 29px 22px;
+}
+
+.menu a:hover,
+.menu a:active,
+.auth a:hover,
+.auth a:active {
+	background-color: #242424;
 }
 
 .auth {
 	margin-left: auto;
 	margin-right: 32px;
+
+	max-width: 140px;
 }
 
-.auth:before {
-	content: "";
 
-	background: url(../img/main/login.png);
-	background-size: 14px 14px;
-
-}
