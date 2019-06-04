@@ -747,4 +747,11 @@ hr {
 	color: #8492af; 
 }
 
+.footer__list i {
+	display: inline-block;
+	padding-right: 13px;
+	font-size: 16px;
+	color: #8492af; 
+}
+
 }
