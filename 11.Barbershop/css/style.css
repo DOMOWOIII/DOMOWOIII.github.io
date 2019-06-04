@@ -1,3 +1,19 @@
+@font-face{
+
+font-family: 'MyWebFont';
+
+src: url('../fonts/ptsansnarrow.woff');
+src: url('../fonts/WebFont.eot?iefix') format('eot'),
+
+}
+
+
+
+
+
+
+
+
 body {
 	font-family: 'PT Sans Narrow', 'Arial' sans-serif;
 	
@@ -9,6 +25,8 @@ body {
 	line-height: 20px;
 	text-transform: uppercase;
 	
+	background: url(../img/main/background.png) top no-repeat;
+
 }
 
 li {
@@ -26,6 +44,8 @@ a {
 	color: #fff;
 }
 
+/* Header menu */
+
 .header {
 	background: #000;
 	color: #fff;
@@ -39,7 +59,6 @@ a {
 	width: 960px;
 	padding-left: 10px;
 	padding-right: 10px;
-
 
 }
 
@@ -57,6 +76,7 @@ a {
 .auth a {
 	display: block;
 	padding: 29px 22px;
+	transition: all 0.2s ease;
 }
 
 .menu a:hover,
@@ -73,4 +93,82 @@ a {
 	max-width: 140px;
 }
 
+.auth a {
+	position: relative;
 
+	padding-left: 53px;
+}
+
+.auth-link::before {
+	content: "";
+	position: absolute;
+	top: 32px;
+	left: 25px;
+
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/main/login.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	opacity: 0.3;
+	
+	transition: all 0.2s ease;
+}
+
+.auth-link:hover::before,
+.auth-link:active::before {
+	opacity: 1;
+
+}
+
+/* Logo main */
+
+.container img {
+	display: block;
+
+	margin: 0 auto;
+	margin-top: 55px;
+
+}
+
+.advantages {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 76px;
+
+}
+
+.advantages_item:nth-child(1) {
+	margin-right: 50px;
+
+}
+
+.advantages_item:nth-child(3) {
+	margin-left: 50px;
+	
+}
+
+.advantages_item {
+	width: 300px;
+	text-align: center;
+
+}
+
+.advantages_item h1 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 700;
+
+}
+
+.advantages_item p {
+	display: inline-block;
+	margin-top: 73px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	
+}
