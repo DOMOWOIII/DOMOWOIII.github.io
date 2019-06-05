@@ -1,21 +1,29 @@
 @font-face{
 
-font-family: 'MyWebFont';
+font-family: 'ptsansnarrow';
 
-src: url('../fonts/ptsansnarrow.woff');
-src: url('../fonts/WebFont.eot?iefix') format('eot'),
+src: url("../fonts/ptsansnarrow.woff2") format("woff2"),
+		 url("../fonts/ptsansnarrow.woff") format("woff");
+
+	font-style: normal; 
+	font-weight: normal; 
+
+} 
+
+@font-face{
+
+font-family: 'ptsansnarrow';
+
+src: url("../fonts/ptsansnarrowbold.woff2") format("woff2"),
+		 url("../fonts/ptsansnarrowbold.woff") format("woff");
+
+	font-style: normal; 
+	font-weight: 700; 
 
 }
 
-
-
-
-
-
-
-
 body {
-	font-family: 'PT Sans Narrow', 'Arial' sans-serif;
+	font-family: 'ptsansnarrow', sans-serif;
 	
 	margin: 0;
 	padding: 0;
@@ -171,4 +179,14 @@ a {
 	font-size: 14px;
 	font-weight: 700;
 	
+}
+
+.rhombus {
+	width: 20px;
+	height: 20px;
+
+	background: #fff;
+	border: none;
+
+	transform: rotate(45deg);
 }
