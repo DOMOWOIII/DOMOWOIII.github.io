@@ -37,6 +37,12 @@ body {
 
 }
 
+p, h1, h2, h3, h4, h4, h6 {
+	margin: 0;
+	padding: 0;
+
+}
+
 li {
 	list-style: none;
 }
@@ -65,6 +71,9 @@ a {
 	margin: 0 auto;
 
 	width: 960px;
+
+	justify-content: center;
+
 	padding-left: 10px;
 	padding-right: 10px;
 
@@ -112,15 +121,12 @@ a {
 	position: absolute;
 	top: 32px;
 	left: 25px;
-
 	width: 16px;
 	height: 16px;
 	background-image: url(../img/main/login.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
-
 	opacity: 0.3;
-	
 	transition: all 0.2s ease;
 }
 
@@ -142,19 +148,24 @@ a {
 
 .advantages {
 	display: flex;
+	margin: 0 auto;
 	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
 
+	width: 960px;
 	margin-top: 76px;
 
 }
 
 .advantages_item:nth-child(1) {
-	margin-right: 50px;
+	margin-right: 20px;
 
 }
 
 .advantages_item:nth-child(3) {
-	margin-left: 50px;
+	margin-left: 20px;
 	
 }
 
@@ -165,7 +176,7 @@ a {
 }
 
 .advantages_item h1 {
-	color: #fff;
+	color: #f7f4f1;
 	font-size: 30px;
 	line-height: 42px;
 	font-weight: 700;
@@ -173,15 +184,22 @@ a {
 }
 
 .advantages_item p {
-	display: inline-block;
-	margin-top: 73px;
-	color: #fff;
+	margin-top: 28px;
+	color: #f7f4f1;
 	font-size: 14px;
+	line-height: 24px;
 	font-weight: 700;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+
 	
 }
 
 .rhombus {
+	margin: 0 auto;
+	margin-top: 12px;
+
 	width: 20px;
 	height: 20px;
 
@@ -189,4 +207,67 @@ a {
 	border: none;
 
 	transform: rotate(45deg);
+}
+
+/* News and Photo --> */
+
+
+.newsphoto {
+	margin: 0 auto;
+	padding: 0 10px;
+	margin-top: 80px;
+
+	width: 960px; 
+	
+}
+
+.newsphoto-container {
+	margin: 0;
+	padding: 45px 80px;
+
+	display: flex;
+
+
+	margin: 0 auto;
+	background: url(../img/main/bg2.jpg) top center no-repeat;
+}
+
+.news {
+	width: 50%;
+	text-align: left;
+
+}
+
+.photogallery {
+	width: 50%;
+	text-align: left;
+	padding-left: 97px;
+	box-sizing: border-box;
+}
+
+.photogallery img {
+	margin-top: 28px;
+
+	border: 7px solid #fff;
+
+}
+
+.news h2 {
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+
+} 
+
+.news p {
+	margin-top: 28px;
+	line-height: 24px;
+
+}
+
+.news .time {
+	text-transform: lowercase;
+	margin-top: 0px;
+	line-height: 24px;
+
 }
