@@ -181,7 +181,7 @@
 		</section>
 
 		<!-- Footer-->
-		<footer class="footer">
+		<footer id="footer" class="footer">
 			<div class="footer-container">
 				<div class="footer_title">
 					<p>
@@ -220,31 +220,36 @@
 				<h2>
 					Личный кабинет
 				</h2>
-				<p class="please">ВВедите пожалуйста свой логин и пароль</p>
+				<p class="please">Введите пожалуйста свой логин и пароль</p>
 				<form class="login_form" action="#" method="post">
 						<p class="login">
-							<input class="login_item" type="text" name="date" value="" placeholder="Login">
+							<input class="login_item" type="text" name="login" value="" placeholder="Login">
 						</p>
 						<p class="password">
 							<input class="password_item" type="password" name="password" value="" placeholder="Password">
 						</p>
-						<p class="checkbox">
-							
-						</p>
-						<button class="button_login">Войти</button>
+						<div class="checkbox">
+							<label>
+							<input class="visially-hidden" type="checkbox" name="remember">
+							<span class="checkbox-indication"></span>
+							Запомнить меня
+							</label>
+							<a href="#">Я забыл пароль!</a>
+						</div>
+						<button class="button_login" type="submit">Войти</button>
 				</form>
 			</div>
 			<button class="login-close" type="button">close
 			</button>
 		</div>
 
- 
-		<div class="modal modal-map">
-			<img src="img/main/map.jpg" alt="Map">
+		<div class="modal-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.605730688894!2d30.32079970716923!3d59.938684235744674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1560004448349!5m2!1sru!2sru" width="766" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 			<button class="map-close" type="button">
 			</button>
-
 		</div>
 
+	<script src="js/scripts.js"></script>
 </body>
 </html>
