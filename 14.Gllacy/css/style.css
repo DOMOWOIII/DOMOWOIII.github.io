@@ -63,6 +63,7 @@ p {
 .header-left-list {
     display: flex;
     margin-top: -7px;
+    margin-left: 27px;
 
     list-style: none;
     align-items: center;
@@ -70,14 +71,28 @@ p {
 }
 
 .header-left-list a {
-    margin-left: 27px;
+    padding: 8px 20px 8px 20px;
 
     cursor: pointer;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
+    border-radius: 30px;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, .35);
+    transition: all 0.3s ease;
+}
+
+.header-left-list a:hover {
+
+    background-color: #f7f6f3;
+    border-radius: 30px;
+    color: #000;
+}
+
+.header-left-list a:active {
+    box-shadow: inset 0px 1px 2px #000;
+
 }
 
 .btn {
@@ -102,7 +117,15 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
 
+
 }
+
+.glass:hover {
+    background-image: url(../img/main/glass-black.png);
+    background-color: #f8f7f4;
+}
+
+
 
 .enter {
     margin-left: 10px;
@@ -118,6 +141,13 @@ p {
     background-position: 21% 50%;
     background-repeat: no-repeat;
 
+
+}
+
+.enter:hover {
+    background-image: url(../img/main/enter-black.png);
+    background-color: #f8f7f4;
+    color: #000;
 }
 
 .box {
@@ -174,7 +204,21 @@ h1 {
     border: none;
     cursor: pointer;
 
+    transition: all 0.3s ease;
+
 }
+
+.offer__button:hover {
+    background-color: #f17d64;
+}
+
+.offer__button:active {
+    background-color: #d94a34;
+    box-shadow: inset 0px 2px 2px #ac1000;
+}
+
+
+
 
 /* Offer - Telephone*/
 
@@ -265,6 +309,15 @@ h1 {
     background-color: #ee5d3e;
     border: none;
     cursor: pointer;
+}
+
+.jam:hover {
+    background-color: #f17d64;
+}
+
+.jam:active {
+    background-color: #d94a34;
+    box-shadow: inset 0px 1px 1px rgba(172, 16, 0, .64);
 }
 
 /* Section - Ice Cream*/
@@ -476,6 +529,15 @@ h2 {
     cursor: pointer;
 }
 
+.button_sending:hover {
+    background-color: #f17d64;
+}
+
+.button_sending:active {
+    background-color: #d94a34;
+    box-shadow: inset 0px 1px 1px rgba(172, 16, 0, .64);
+}
+
 /* Section - Map*/
 
 .map {
@@ -514,6 +576,12 @@ h2 {
     border: 2px solid #c2cec7;
 
     text-align: center;
+
+    transition: all 0.3s ease;
+}
+
+.social__icon:hover {
+    background-color: #fff;
 }
 
 .fa {
@@ -542,6 +610,12 @@ h2 {
     font-weight: 400;
     outline: 1px;
     color: #fff;
+
+    transition: all 0.3s ease;
+}
+
+.contacts a:hover {
+    color: #ffbc9e;
 }
 
 .contacts__block {
@@ -578,4 +652,125 @@ h2 {
     color: #fff;
     text-decoration: none;
     text-decoration: underline;
+}
+
+/* Pop's up - Catalog*/
+
+.catalog {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 209px;
+
+    width: 144px;
+    height: 170px;
+
+    background-color: #f8f7f4;
+    border-radius: 10px;
+
+}
+
+.catalog a {
+    display: block;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.catalog a:hover {
+    color: #ffbc9e;
+
+}
+
+.catalog a:active {
+    color: #ffbc9e;
+
+}
+
+.catalog p {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.catalog span {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: 1px;
+
+    background-color: #d1d0ce;
+
+}
+
+.catalog_first {
+    margin-top: 8px;
+}
+
+.show {
+    display: block;
+}
+
+.made a:hover {
+    color: #ffbc9e;
+
+}
+
+.made a:active {
+    color: #ffbc9e;
+
+}
+
+/* Pop's up - Ice Cream*/
+
+.pop_up-orange {
+    display: none;
+    position: absolute;
+    background-color: #9bafa3;
+    padding-bottom: 20px;
+}
+
+.show_quickly {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 11px 20px 11px 20px;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, .64);
+
+    background-color: #ee5d3e;
+    border: none;
+    cursor: pointer;
+}
+
+.show_quickly:hover {
+    background-color: #f17d64;
+}
+
+.show_quickly:active {
+    background-color: #d94a34;
+    box-shadow: inset 0px 1px 1px rgba(172, 16, 0, .64);
+}
+
+.pop_up_h2 {
+    position: absolute;
+    top: 201px;
+    right: 105px;
 }
