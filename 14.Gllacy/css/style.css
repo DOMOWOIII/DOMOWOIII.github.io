@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    background-color: #849d8f;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.background-body {
+    position: absolute;
+    top: -10px;
+    left: 7%;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 27px;
+    padding-right: 27px;
+    box-sizing: border-box;
+
+}
+
+/* Header */
+.header {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.header-left-list {
+    display: flex;
+    margin-top: -7px;
+
+    list-style: none;
+    align-items: center;
+
+}
+
+.header-left-list a {
+    margin-left: 27px;
+
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn {
+    padding: 0;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #9db1a5;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.glass {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    background-image: url(../img/main/glass.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.enter {
+    margin-left: 10px;
+    padding-left: 44px;
+    box-sizing: border-box;
+    text-align: left;
+
+    width: 93px;
+    height: 32px;
+    border-radius: 25px;
+
+    background-image: url(../img/main/enter.png);
+    background-position: 21% 50%;
+    background-repeat: no-repeat;
+}
+
+.box {
+    margin-left: 10px;
+    padding-left: 44px;
+    box-sizing: border-box;
+    text-align: left;
+
+    width: 117px;
+    height: 32px;
+    border-radius: 25px;
+
+    background-image: url(../img/main/box.png);
+    background-position: 16% 50%;
+    background-repeat: no-repeat;
+
+}
+
+/* Offer */
+
+
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    top: 377px;
+    right: 212px;
+
+    width: 710px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.offer__button {
+    position: absolute;
+    top: 545px;
+    left: 50%;
+    margin-left: -140px;
+    z-index: 1;
+
+    box-sizing: border-box;
+    width: 280px;
+    padding: 11px 40px 11px 40px;
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 2px 2px #ac1000;
+    border-radius: 30px;
+    box-shadow: 0px 3px 2px #aa5848;
+
+    background-color: #ee5d3e;
+    border: none;
+
+}
