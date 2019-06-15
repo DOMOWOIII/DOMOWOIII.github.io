@@ -845,6 +845,7 @@ h2 {
     display: block;
 }
 
+
 /* Switch*/
 
 
@@ -938,5 +939,20 @@ input[type="radio"]:checked~label::after {
 
 input[type="radio"]:checked~label::before {
     border: none;
+
+}
+
+.body_color_1 {
+    background-color: #849d8f;
+
+}
+
+.body_color_2 {
+    background-color: #8996a6;
+
+}
+
+.body_color_3 {
+    background-color: #9d8b84;
 
 }

@@ -49,5 +49,59 @@ login.addEventListener("mouseleave", function(evt) {
 
 });
 
+/* Changed background*/
 
-/* JQuary Scripts*/
+var body = document.querySelector(".body");
+var color1 = document.querySelector("#switch_1");
+var color2 = document.querySelector("#switch_2");
+var color3 = document.querySelector("#switch_3");
+
+color1.addEventListener("click", function(evt) {
+    evt.preventDefault();
+    body.classList.add("body_color_1");
+
+});
+
+color2.addEventListener("click", function(evt) {
+    evt.preventDefault();
+    body.classList.add("body_color_2");
+
+});
+
+color3.addEventListener("click", function(evt) {
+    evt.preventDefault();
+    body.classList.add("body_color_3");
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+$(document).ready(function() {
+    alert("Hi");
+    $('.btn').click(function() {
+        alert("WORKED");
+    });
+}); //end move_up
+
+*/
