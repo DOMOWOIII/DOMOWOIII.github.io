@@ -333,7 +333,11 @@ h1 {
 
 }
 
-.ice-cream__block {
+.ice-cream__block_orange,
+.ice-cream__block_coffee,
+.ice-cream__block_strawberry,
+.ice-cream__block_caramel {
+
     position: relative;
 
     width: 267px;
@@ -681,16 +685,16 @@ h2 {
     color: #000;
     font-size: 14px;
     font-weight: 400;
-    transition: all 0.3s ease;
+
 }
 
 .catalog a:hover {
-    color: #ffbc9e;
+    background-color: #ffbc9e;
 
 }
 
 .catalog a:active {
-    color: #ffbc9e;
+    background-color: #ffbc9e;
 
 }
 
@@ -719,10 +723,6 @@ h2 {
     margin-top: 8px;
 }
 
-.show {
-    display: block;
-}
-
 .made a:hover {
     color: #ffbc9e;
 
@@ -735,12 +735,14 @@ h2 {
 
 /* Pop's up - Ice Cream*/
 
-.pop_up-orange {
-    display: none;
+/*.ice-cream__block_orange_pop_up-orange {
+
     position: absolute;
     background-color: #9bafa3;
+    padding: 5px 5px 5px 5px;
     padding-bottom: 20px;
-}
+    border-radius: 10px;
+}*/
 
 .show_quickly {
     display: block;
@@ -773,4 +775,21 @@ h2 {
     position: absolute;
     top: 201px;
     right: 105px;
+}
+
+.ice-cream__block_orange_pop_up-orange {
+    display: none;
+    position: absolute;
+    background-color: #9bafa3;
+    padding: 5px 5px 5px 5px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    width: 267px;
+    text-align: center;
+
+}
+
+.show {
+    display: block;
 }
