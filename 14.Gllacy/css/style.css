@@ -27,7 +27,6 @@ h6,
 p {
     margin: 0;
     padding: 0;
-
 }
 
 .container {
@@ -36,7 +35,6 @@ p {
     padding-left: 27px;
     padding-right: 27px;
     box-sizing: border-box;
-
 }
 
 /* Header */
@@ -51,7 +49,6 @@ p {
 
 .header-left {
     display: flex;
-
 }
 
 .header-right {
@@ -67,7 +64,6 @@ p {
 
     list-style: none;
     align-items: center;
-
 }
 
 .header-left-list a {
@@ -84,7 +80,6 @@ p {
 }
 
 .header-left-list a:hover {
-
     background-color: #f7f6f3;
     border-radius: 30px;
     color: #000;
@@ -92,7 +87,6 @@ p {
 
 .header-left-list a:active {
     box-shadow: inset 0px 1px 2px #000;
-
 }
 
 .btn {
@@ -104,8 +98,6 @@ p {
     background-color: #9db1a5;
     border: none;
     cursor: pointer;
-
-
 }
 
 .glass {
@@ -116,16 +108,12 @@ p {
     background-image: url(../img/main/glass.png);
     background-position: center center;
     background-repeat: no-repeat;
-
-
 }
 
 .glass:hover {
     background-image: url(../img/main/glass-black.png);
     background-color: #f8f7f4;
 }
-
-
 
 .enter {
     margin-left: 10px;
@@ -140,8 +128,6 @@ p {
     background-image: url(../img/main/enter.png);
     background-position: 21% 50%;
     background-repeat: no-repeat;
-
-
 }
 
 .enter:hover {
@@ -163,8 +149,6 @@ p {
     background-image: url(../img/main/box.png);
     background-position: 16% 50%;
     background-repeat: no-repeat;
-
-
 }
 
 /* Offer */
@@ -205,7 +189,6 @@ h1 {
     cursor: pointer;
 
     transition: all 0.3s ease;
-
 }
 
 .offer__button:hover {
@@ -216,9 +199,6 @@ h1 {
     background-color: #d94a34;
     box-shadow: inset 0px 2px 2px #ac1000;
 }
-
-
-
 
 /* Offer - Telephone*/
 
@@ -241,7 +221,6 @@ h1 {
     margin-top: 5px;
 
     font-size: 22px;
-
 }
 
 /* Section - Berry-free*/
@@ -254,7 +233,6 @@ h1 {
 
     color: #fff;
     font-weight: 700;
-
 }
 
 .raspberry {
@@ -330,7 +308,6 @@ h1 {
 
 .ice-cream span {
     font-size: 30px;
-
 }
 
 .ice-cream__block_orange,
@@ -351,14 +328,12 @@ h1 {
     font-weight: 500;
     color: #fff;
     text-shadow: 3px 3px 7px rgba(0, 0, 0, .35);
-
 }
 
 .hit-sales {
     position: absolute;
     top: 0;
     left: 0;
-
 }
 
 h2 {
@@ -370,7 +345,6 @@ h2 {
     font-weight: 700;
     color: #fff;
     text-shadow: 1px 0px 3px rgba(49, 50, 53, .50);
-
 }
 
 /* Section - Advantages*/
@@ -396,7 +370,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
-
 }
 
 .adventages__block_item {
@@ -415,25 +388,21 @@ h2 {
 .adventages__block_item:nth-child(1) {
     background-image: url(../img/main/icon_ice_cream.png);
     background-repeat: no-repeat;
-
 }
 
 .adventages__block_item:nth-child(2) {
     background-image: url(../img/main/cow.png);
     background-repeat: no-repeat;
-
 }
 
 .adventages__block_item:nth-child(3) {
     background-image: url(../img/main/leave.png);
     background-repeat: no-repeat;
-
 }
 
 .adventages__block_item:nth-child(4) {
     background-image: url(../img/main/degrees.png);
     background-repeat: no-repeat;
-
 }
 
 /* Section - Our blog*/
@@ -441,7 +410,6 @@ h2 {
 .blog {
     display: flex;
     justify-content: space-between;
-
 }
 
 .blog__left {
@@ -466,7 +434,6 @@ h2 {
     font-weight: 700;
 
     width: 280px;
-
 }
 
 .blog__right {
@@ -489,19 +456,16 @@ h2 {
 
     background: #f8f7f4;
     border-radius: 20px;
-
 }
 
 .block__right_top p {
     font-size: 16px;
     font-weight: 400;
     color: #5a5a5a;
-
 }
 
 .sending {
     margin-top: 40px;
-
 }
 
 .sending_item {
@@ -512,7 +476,6 @@ h2 {
     height: 42px;
     border: 1px solid #d3d3d2;
     border-radius: 5px;
-
 }
 
 .button_sending {
@@ -560,7 +523,6 @@ h2 {
     justify-content: space-between;
     padding-top: 36px;
     padding-bottom: 20px;
-
 }
 
 .social {
@@ -626,7 +588,6 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-
 }
 
 .contacts__block_left {
@@ -671,7 +632,7 @@ h2 {
 
     background-color: #f8f7f4;
     border-radius: 10px;
-
+    box-shadow: 5px 5px 10px #000;
 }
 
 .catalog a {
@@ -685,17 +646,14 @@ h2 {
     color: #000;
     font-size: 14px;
     font-weight: 400;
-
 }
 
 .catalog a:hover {
     background-color: #ffbc9e;
-
 }
 
 .catalog a:active {
     background-color: #ffbc9e;
-
 }
 
 .catalog p {
@@ -716,7 +674,6 @@ h2 {
     height: 1px;
 
     background-color: #d1d0ce;
-
 }
 
 .catalog_first {
@@ -725,24 +682,11 @@ h2 {
 
 .made a:hover {
     color: #ffbc9e;
-
 }
 
 .made a:active {
     color: #ffbc9e;
-
 }
-
-/* Pop's up - Ice Cream*/
-
-/*.ice-cream__block_orange_pop_up-orange {
-
-    position: absolute;
-    background-color: #9bafa3;
-    padding: 5px 5px 5px 5px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-}*/
 
 .show_quickly {
     display: block;
@@ -787,8 +731,115 @@ h2 {
 
     width: 267px;
     text-align: center;
-
 }
+
+
+/* Pop's up - Search*/
+
+.search {
+    display: none;
+    position: absolute;
+    right: 257px;
+    top: 53px;
+
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width: 340px;
+    height: 84px;
+
+    background-color: #f8f7f4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.search_form {
+    width: 310px;
+}
+
+.search_item {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 310px;
+    height: 44px;
+    border: 1px solid #d3d3d2;
+    border-radius: 5px;
+}
+
+/* Pop's up - Login*/
+
+.login {
+    display: none;
+    position: absolute;
+    right: 155px;
+    top: 53px;
+    z-index: 10;
+
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+    width: 278px;
+    height: 215px;
+
+    background-color: #f8f7f4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.login_item {
+    display: block;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 240px;
+    height: 44px;
+    border: 1px solid #d3d3d2;
+    border-radius: 5px;
+}
+
+.login_item:nth-child(2) {
+    margin-top: 20px;
+}
+
+.btn_container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memory a {
+    display: block;
+
+    font-size: 13px;
+    color: #000;
+}
+
+.memory a:nth-child(2) {
+    margin-top: 4px;
+}
+
+.button_login {
+
+    width: 100px;
+    height: 45px;
+
+    box-sizing: border-box;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, .64);
+
+    background-color: #ee5d3e;
+    border: none;
+    cursor: pointer;
+}
+
 
 .show {
     display: block;

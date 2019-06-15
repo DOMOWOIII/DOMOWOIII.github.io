@@ -1,3 +1,5 @@
+/* Pop's up Catalog navigation*/
+
 var link = document.querySelector(".clicked");
 var catalog_block = document.querySelector(".catalog");
 
@@ -13,17 +15,36 @@ catalog_block.addEventListener("mouseleave", function(evt) {
 
 });
 
-var iceCream = document.querySelector(".ice-cream__block_orange");
-var quickly = document.querySelector(".ice-cream__block_orange_pop_up-orange");
+/* Pop's up Search*/
 
-iceCream.addEventListener("mouseenter", function(evt) {
+var search_clicked = document.querySelector(".btn.glass");
+var search_form = document.querySelector(".search");
+
+search_clicked.addEventListener("click", function(evt) {
     evt.preventDefault();
-    quickly.classList.add("show");
+    search_form.classList.add("show");
 
 });
 
-iceCream.addEventListener("mouseleave", function(evt) {
+search_form.addEventListener("mouseleave", function(evt) {
     evt.preventDefault();
-    quickly.classList.remove("show");
+    search_form.classList.remove("show");
+
+});
+
+/* Pop's up Login*/
+
+var enter = document.querySelector(".btn.enter");
+var login = document.querySelector(".login");
+
+enter.addEventListener("click", function(evt) {
+    evt.preventDefault();
+    login.classList.add("show");
+
+});
+
+login.addEventListener("mouseleave", function(evt) {
+    evt.preventDefault();
+    login.classList.remove("show");
 
 });
