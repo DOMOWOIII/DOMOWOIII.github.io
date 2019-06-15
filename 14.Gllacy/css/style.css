@@ -532,7 +532,7 @@ h2 {
 }
 
 .social__icon {
-    padding-top: 7px;
+    padding-top: 8px;
     box-sizing: border-box;
 
     width: 38px;
@@ -838,6 +838,11 @@ h2 {
     background-color: #ee5d3e;
     border: none;
     cursor: pointer;
+}
+
+.button_login:active {
+    background-color: #d94a34;
+    box-shadow: inset 0px 1px 1px rgba(172, 16, 0, .64);
 }
 
 
