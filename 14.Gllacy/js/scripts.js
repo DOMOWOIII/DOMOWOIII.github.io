@@ -48,3 +48,6 @@ login.addEventListener("mouseleave", function(evt) {
     login.classList.remove("show");
 
 });
+
+
+/* JQuary Scripts*/

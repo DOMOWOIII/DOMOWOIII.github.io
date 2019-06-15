@@ -844,3 +844,99 @@ h2 {
 .show {
     display: block;
 }
+
+/* Switch*/
+
+
+.switch_block {
+    position: absolute;
+    top: 565px;
+    left: 70px;
+
+}
+
+.switch_block_item {
+    cursor: pointer;
+    display: block;
+}
+
+#switch_2 {
+    margin-top: 10px;
+}
+
+#switch_3 {
+    margin-top: 10px;
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+}
+
+.label_switch_1::before,
+.label_switch_1::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -42px;
+    border-radius: 50%;
+    content: "";
+}
+
+.label_switch_2::before,
+.label_switch_2::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -12px;
+    border-radius: 50%;
+    content: "";
+}
+
+.label_switch_3::before,
+.label_switch_3::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-radius: 50%;
+    content: "";
+}
+
+.label_switch_1::before,
+.label_switch_2::before,
+.label_switch_3::before {
+    box-sizing: border-box;
+
+    width: 16px;
+    height: 16px;
+    border: solid 3px #fff;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.label_switch_1::after,
+.label_switch_2::after,
+.label_switch_3::after {
+
+    width: 16px;
+    height: 16px;
+    background: #fff;
+
+    transform: scale(0);
+
+    transition: transform 0.3s ease;
+}
+
+input[type="radio"]:checked~label::after {
+    transform: scale(1.1);
+
+}
+
+input[type="radio"]:checked~label::before {
+    border: none;
+
+}
