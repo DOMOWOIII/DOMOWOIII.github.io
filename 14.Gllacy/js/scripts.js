@@ -49,7 +49,7 @@ login.addEventListener("mouseleave", function(evt) {
 
 });
 
-/* Changed background*/
+/* Changed background
 
 var body = document.querySelector(".body");
 var color1 = document.querySelector("#switch_1");
@@ -73,7 +73,7 @@ color3.addEventListener("click", function(evt) {
     body.classList.add("body_color_3");
 
 });
-
+*/
 
 
 
