@@ -18,6 +18,7 @@ function apiSearch(event) {
                 let nameItem = item.name || item.title;
                 inner += `
             <div class = 'col-md-6 col-lg-4 col-xl-2 item'>
+
             <img src= "${urlPoster + item.poster_path}" alt = "${nameItem}">
             <h5>${nameItem}</h5>
             </div>
